@@ -1,0 +1,89 @@
+[package]
+name = "rspack-rust-api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rspack                                 = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_allocator                       = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_ast                             = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_base64                          = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_binding                         = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_binding_values                  = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_builtin                         = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_cacheable                       = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_collection                      = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_collections                     = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+rspack_core                            = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_deps_graph                      = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_error                           = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_fs                              = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_fs_node                         = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_futures                         = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_hash                            = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_hook                            = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_identifier                      = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_ids                             = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_loader                          = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_loader_lightningcss             = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_loader_preact_refresh           = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_loader_react_refresh            = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_loader_runner                   = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_loader_swc                      = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_loader_testing                  = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_macros                          = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_napi                            = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_napi_macros                     = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_paths                           = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_asset                    = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_banner                   = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_context_replacement      = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_copy                     = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_css                      = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_devtool                  = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_dll                      = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_dynamic                  = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_dynamic_entry            = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_emit                     = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_ensure_chunk_conditions  = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+rspack_plugin_entry                    = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_externals                = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_extract_css              = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_hmr                      = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_html                     = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_ignore                   = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_javascript               = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_json                     = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_lazy_compilation         = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_library                  = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_lightning_css_minimizer  = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_limit_chunk_count        = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_merge                    = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_merge_duplicate_chunks   = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_mf                       = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_mini_css_extract         = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_no_emit_on_errors        = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_progress                 = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_real_content_hash        = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_remove_duplicate_modules = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_remove_empty_chunks      = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_runtime                  = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_runtime_chunk            = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_schemes                  = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_size_limits              = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_split_chunks             = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_swc_js_minimizer         = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_warn_sensitive_module    = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_wasm                     = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_web_worker_template      = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_plugin_worker                   = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_regex                           = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_storage                         = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_swc_plugin_import               = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_testing                         = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_tracing                         = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+# rspack_util                            = { git = "https://github.com/web-infra-dev/rspack", branch = "main"}
+serde_json = "1.0.113"
+tokio = {features = ["full"], version = "1.38.0"}
+miette = { version = "*"}
+
